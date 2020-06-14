@@ -1,0 +1,44 @@
+<%-include('partials/header')-%>
+
+  <div class="container options">
+    <div class="card bg-dark text-white home-card">
+      <img src="<%=headlineNews.urlToImage%>" class="card-img" alt="image">
+      <div class="card-img-overlay">
+        <h5 class="card-title"><a href="/topheadlines">Headlines</a></h5>
+        <p class="card-text"><%=headlineNews.title%></p>
+      </div>
+    </div>
+    <div class="card bg-dark text-white home-card">
+      <img src="<%=covidNews.urlToImage%>" class="card-img" alt="image">
+      <div class="card-img-overlay">
+        <h5 class="card-title"><a href="/corona">Corona</a></h5>
+        <p class="card-text"><%=covidNews.title%></p>
+      </div>
+    </div>
+    <div class="card bg-dark text-white home-card">
+      <img src="<%=technologyNews.urlToImage%>" class="card-img" alt="...">
+      <div class="card-img-overlay">
+        <h5 class="card-title"><a href="/technology">Technology</a></h5>
+        <p class="card-text"><%=technologyNews.title%></p>
+
+      </div>
+    </div>
+    <div class="card bg-dark text-white home-card">
+      <img src="<%=businessNews.urlToImage%>" class="card-img" alt="...">
+      <div class="card-img-overlay">
+        <h5 class="card-title"><a href="/business">Business</a></h5>
+        <p class="card-text"><%=businessNews.title%></p>
+
+      </div>
+    </div>
+    <div class="card bg-dark text-white home-card">
+      <img src="<%=sportsNews.urlToImage%>" class="card-img" alt="...">
+      <div class="card-img-overlay">
+        <h5 class="card-title"><a href="/sports">Sports</a></h5>
+        <p class="card-text"><%=sportsNews.title%></p>
+
+      </div>
+    </div>
+  </div>
+  <%-include('partials/side-covid')-%>
+<%-include('partials/footer')-%>
